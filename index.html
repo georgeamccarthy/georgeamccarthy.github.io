@@ -6,23 +6,34 @@
         font-family: 'Inter', sans-serif;
       }
       
-      .center {
+      .fullscreen {
+        width: 100%;
+        height: auto;
+        bottom: 0px;
+        top: 0px;
+        left: 0;
         position: absolute;
-        top: 50%;
-        left: 50%;
-        margin-left: -50px;
-        margin-top: -25px; 
+      }
+      
+      .center {
+          position: absolute;
+          width: 100px;
+          height: 50px;
+          top: 50%;
+          left: 50%;
+          margin-top: -25px;
+          margin-left: -50px;
       }
     </style>
   </head>
 
   <body>
-    <div class="center">
-      <h1><strong>George A. McCarthy</strong></h1>
-      <p>Second Year Physics Student at the University of Bath.</p>
-      <a href="https://www.linkedin.com/in/georgemccarthy/">LinkedIn</a> - <a href="https://github.com/georgeamccarthy">Github</a>
+    <div class='fullscreen'>
+      <div class="center">
+        <h1><strong>George A. McCarthy</strong></h1>
+        <p>Second Year Physics Student at the University of Bath.</p>
+        <a href="https://www.linkedin.com/in/georgemccarthy/">LinkedIn</a> - <a href="https://github.com/georgeamccarthy">Github</a>
+      </div>
     </div>
-    </div>
-    
   </body>
 </html>
