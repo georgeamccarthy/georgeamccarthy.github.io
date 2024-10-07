@@ -1,0 +1,26 @@
+body {
+  font-size: 1em;
+  line-height: 1.5;
+  font-family: "Inter", sans-serif;
+}
+
+.fullscreen {
+  width: 100%;
+  height: auto;
+  bottom: 0px;
+  top: 0px;
+  left: 0;
+  position: absolute;
+}
+
+.center {
+  width: 480px;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -280px;
+  margin-left: -200px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
