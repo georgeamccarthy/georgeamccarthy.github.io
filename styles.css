@@ -7,9 +7,11 @@ body {
   max-width: 480px;
 }
 
-.center {
-  display: flex;
-  align-items: center;
+.center-horizontally {
   justify-content: center;
+  display: flex;
+}
+.center-vertically {
   height: 100%;
+  align-items: center;
 }
