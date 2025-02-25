@@ -9,4 +9,4 @@ Researching the most violent explosions in the universe (gamma-ray bursts), read
 
 [LinkedIn](https://www.linkedin.com/in/georgemccarthy/) - [Github](https://github.com/georgeamccarthy) 
 
-![Picture of me](images/me.png)
+![Picture of me](images/me.jpeg)
