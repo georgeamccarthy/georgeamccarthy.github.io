@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>George A. McCarthy</title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:63428/</link>
     <description>Recent content on George A. McCarthy</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
     <lastBuildDate>Fri, 10 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:63428/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blocking distracting content in Instagram with #blockit</title>
-      <link>http://localhost:1313/blog/blocking-distracting-content-in-instagram-with-blockit/</link>
+      <link>http://localhost:63428/blog/blocking-distracting-content-in-instagram-with-blockit/</link>
       <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/blocking-distracting-content-in-instagram-with-blockit/</guid>
+      <guid>http://localhost:63428/blog/blocking-distracting-content-in-instagram-with-blockit/</guid>
       <description>&lt;p&gt;I use Instagram to keep up to date on what my friends are doing, especially those that I don&amp;rsquo;t see very often. And when I joined Instagram in 2014, that was its primary purpose. It was a time before stories, suggested posts, reels, and the explore page. Sure, there was less to see then. Some days you would refresh your feed and see nothing new from your friends, so you&amp;rsquo;d contently resign to check in a day or two later.&lt;/p&gt;</description>
     </item>
   </channel>
