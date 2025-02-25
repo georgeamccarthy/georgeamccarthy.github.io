@@ -1,0 +1,7 @@
+baseURL = 'https://georgeamccarthy.github.io/'
+languageCode = 'en-gb'
+title = 'George A. McCarthy'
+theme = 'hugo-bearblog'
+
+[params]
+  favicon = 'images/favicon.png'
