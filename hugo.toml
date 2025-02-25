@@ -1,7 +1,33 @@
 baseURL = 'https://georgeamccarthy.github.io/'
 languageCode = 'en-gb'
 title = 'George A. McCarthy'
+author = 'George A. McCarthy'
+copyright = "George A. McCarthy."
 theme = 'hugo-bearblog'
 
+# Enable robots.txt for SEO
+enableRobotsTXT = true
+
+# Generate "Bearblog"-like URLs
+disableKinds = ["taxonomy"]
+ignoreErrors = ["error-disable-taxonomy"]
+[permalinks]
+  blog = "/:slug/"
+  tags = "/blog/:slug"
+
 [params]
+  # Site description for meta data
+  description = "George A. McCarthy's personal website"
+  
+  # Favicon configuration
   favicon = 'images/favicon.png'
+  
+  # Images for social media previews
+  # TODO
+  # images = ["images/share.png"]
+  
+  # Site name for opengraph structured data
+  title = "George A. McCarthy"
+  
+  # Optional: Uncomment to customize date format
+  # dateFormat = "2006-01-02"
