@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>George A. McCarthy</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+
+    <body>
+        <h1>
+            George A. McCarthy
+            <img
+                src="gifs/computer-01.gif"
+                style="height: 1.5em; vertical-align: middle"
+            />
+        </h1>
+
+        <p>
+            <a href="https://linkedin.com/in/georgeamccarthy">LinkedIn</a>
+            <a
+                href="https://scholar.google.com/citations?user=Wa6p6_kAAAAJ&hl=en"
+                >Google Scholar</a
+            >
+            <a
+                href="#"
+                onclick="
+                    revealEmail();
+                    return false;
+                "
+                >Email</a
+            >
+        </p>
+
+        <!-- Encoded email address. -->
+        <p
+            id="hidden-email"
+            style="display: none"
+            data-encoded="jhrujh.pffduwkb.25@xfo.df.xn"
+        ></p>
+
+        <p>Interests:</p>
+        <ul>
+            <li>AI4Science / AI4Astrophysics</li>
+            <li>Deep learning</li>
+            <li>Causality</li>
+            <li>Reinforcement learning</li>
+        </ul>
+
+        <marquee style="font-family: &quot;Comic Sans MS&quot;">
+            Under construction!
+            <img src="gifs/under-construction.gif" />
+        </marquee>
+        <!--<p>Blog posts:</p>
+        <ul>
+            <li><a href="blog/1.html">1</a></li>
+        </ul>-->
+
+        <!-- Inline JS to decode -->
+        <script>
+            function decodeCaesar(str, shift) {
+                return str.replace(/[a-z]/gi, function (c) {
+                    const base = c >= "a" && c <= "z" ? "a" : "A";
+                    return String.fromCharCode(
+                        ((c.charCodeAt(0) - base.charCodeAt(0) - shift + 26) %
+                            26) +
+                            base.charCodeAt(0),
+                    );
+                });
+            }
+
+            function revealEmail() {
+                const p = document.getElementById("hidden-email");
+                const encoded = p.dataset.encoded;
+                const decoded = decodeCaesar(encoded, 3); // reverse shift of +3
+                p.textContent = decoded;
+                p.style.display = "block";
+            }
+        </script>
+    </body>
+</html>
