@@ -1,4 +1,0 @@
-Local server:
-```
-hugo server
-```
